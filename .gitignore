@@ -1,3 +1,7 @@
+allure-results/
+test-output/
+
+application.log
 ##############################
 ## Java
 ##############################
@@ -8,7 +12,7 @@
 *.ear
 *.nar
 hs_err_pid*
-
+activityLog.log
 ##############################
 ## Maven
 ##############################
@@ -25,16 +29,6 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 ##############################
-## Gradle
-##############################
-bin/
-build/
-.gradle
-.gradletasknamecache
-gradle-app.setting
-!gradle-wrapper.jar
-
-##############################
 ## IntelliJ
 ##############################
 out/
@@ -43,7 +37,6 @@ out/
 *.iml
 *.ipr
 *.iws
-
 ##############################
 ## Eclipse
 ##############################
@@ -61,24 +54,6 @@ local.properties
 .loadpath
 .factorypath
 
-##############################
-## NetBeans
-##############################
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-
-##############################
-## Visual Studio Code
-##############################
-.vscode/
-.code-workspace
-
-##############################
 ## OS X
 ##############################
 .DS_Store
