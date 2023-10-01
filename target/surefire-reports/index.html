@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-API_Regression_Suite">
+              <span class="suite-name border-failed">API Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-API_Regression_Suite">
+                    <span>C:\Users\sushil\eclipse-workspace\June2023RestAssuredFramework\src\test\resources\testRunners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-API_Regression_Suite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-API_Regression_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-API_Regression_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-API_Regression_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-API_Regression_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-API_Regression_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-API_Regression_Suite" class="hide-methods failed suite-API_Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-API_Regression_Suite -->
+                      <a href="#" panel-name="suite-API_Regression_Suite" class="show-methods failed suite-API_Regression_Suite"> (show)</a> <!-- show-methods failed suite-API_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-API_Regression_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.GetUserDetails" hash-for-method="getUserDetail">getUserDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-API_Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Regression_Suite" class="hide-methods passed suite-API_Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-API_Regression_Suite -->
+                      <a href="#" panel-name="suite-API_Regression_Suite" class="show-methods passed suite-API_Regression_Suite"> (show)</a> <!-- show-methods passed suite-API_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Regression_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.GetCircuitDetails" hash-for-method="circuitDetailsTest">circuitDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.GetCircuitDetails" hash-for-method="circuitDetailsTestJsonPath">circuitDetailsTestJsonPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.CreateUser" hash-for-method="createUserTestUsingExcel(Rocy, Male, Active)">createUserTestUsingExcel(Rocy, Male, Active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.CreateUser" hash-for-method="createUserTestUsingExcel(Rohit, Male, Active)">createUserTestUsingExcel(Rohit, Male, Active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.CreateUser" hash-for-method="createUserTestUsingExcel(Rita, Female, Inactive)">createUserTestUsingExcel(Rita, Female, Inactive)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.GetUserDetails" hash-for-method="getAllUserDetails">getAllUserDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.GetFlightDetails" hash-for-method="getFlightDetails">getFlightDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Regression_Suite" title="com.qa.gorest.tests.GetUserDetails" hash-for-method="getUserDetailWithQueryParam">getUserDetailWithQueryParam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Regression_Suite" class="panel API_Regression_Suite">
+          <div class="suite-API_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.gorest.tests.GetUserDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserDetail">
+                  </a> <!-- getUserDetail -->
+                  <span class="method-name">getUserDetail</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path status doesn&apos;t match.
+Expected: is &quot;INACTIVE&quot;
+  Actual: active
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at com.qa.gorest.tests.GetUserDetails.getUserDetail(GetUserDetails.java:36)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Regression_Suite-class-failed -->
+          <div class="suite-API_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.gorest.tests.CreateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTestUsingExcel(Rocy, Male, Active)">
+                  </a> <!-- createUserTestUsingExcel(Rocy, Male, Active) -->
+                  <span class="method-name">createUserTestUsingExcel</span>
+                  <span class="parameters">(Rocy, Male, Active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTestUsingExcel(Rohit, Male, Active)">
+                  </a> <!-- createUserTestUsingExcel(Rohit, Male, Active) -->
+                  <span class="method-name">createUserTestUsingExcel</span>
+                  <span class="parameters">(Rohit, Male, Active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTestUsingExcel(Rita, Female, Inactive)">
+                  </a> <!-- createUserTestUsingExcel(Rita, Female, Inactive) -->
+                  <span class="method-name">createUserTestUsingExcel</span>
+                  <span class="parameters">(Rita, Female, Inactive)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Regression_Suite-class-passed -->
+          <div class="suite-API_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.gorest.tests.GetFlightDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFlightDetails">
+                  </a> <!-- getFlightDetails -->
+                  <span class="method-name">getFlightDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Regression_Suite-class-passed -->
+          <div class="suite-API_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.gorest.tests.GetCircuitDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="circuitDetailsTest">
+                  </a> <!-- circuitDetailsTest -->
+                  <span class="method-name">circuitDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="circuitDetailsTestJsonPath">
+                  </a> <!-- circuitDetailsTestJsonPath -->
+                  <span class="method-name">circuitDetailsTestJsonPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Regression_Suite-class-passed -->
+          <div class="suite-API_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.gorest.tests.GetUserDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllUserDetails">
+                  </a> <!-- getAllUserDetails -->
+                  <span class="method-name">getAllUserDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserDetailWithQueryParam">
+                  </a> <!-- getUserDetailWithQueryParam -->
+                  <span class="method-name">getUserDetailWithQueryParam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Regression_Suite-class-passed -->
+        </div> <!-- panel API_Regression_Suite -->
+        <div panel-name="test-xml-API_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sushil\eclipse-workspace\June2023RestAssuredFramework\src\test\resources\testRunners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;API Regression Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.gorest.listeners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Go Rest API Test GetUser&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;baseURI&quot; value=&quot;https://gorest.co.in&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.gorest.tests.GetUserDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Go Rest API Test GetUser --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Go Rest API Test CreateUser&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;baseURI&quot; value=&quot;https://gorest.co.in&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.gorest.tests.CreateUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Go Rest API Test CreateUser --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Circuit API Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;baseURI&quot; value=&quot;https://ergast.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.gorest.tests.GetCircuitDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Circuit API Test --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Flight API Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;clientId&quot; value=&quot;TAnRnsU5lASXZ8mPGdwRQZMoQzhu6Gwv&quot;/&gt;
+    &lt;parameter name=&quot;baseURI&quot; value=&quot;https://test.api.amadeus.com&quot;/&gt;
+    &lt;parameter name=&quot;clientSecret&quot; value=&quot;VjjgfcJilNAzcSJw&quot;/&gt;
+    &lt;parameter name=&quot;grantType&quot; value=&quot;client_credentials&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.gorest.tests.GetFlightDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flight API Test --&gt;
+&lt;/suite&gt; &lt;!-- API Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Go Rest API Test GetUser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Go Rest API Test CreateUser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Circuit API Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Flight API Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Regression_Suite');
+function tableData_API_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createUserTestUsingExcel')
+data.setCell(0, 2, 'com.qa.gorest.tests.CreateUser')
+data.setCell(0, 3, 5204);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUserTestUsingExcel')
+data.setCell(1, 2, 'com.qa.gorest.tests.CreateUser')
+data.setCell(1, 3, 4953);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getAllUserDetails')
+data.setCell(2, 2, 'com.qa.gorest.tests.GetUserDetails')
+data.setCell(2, 3, 3344);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createUserTestUsingExcel')
+data.setCell(3, 2, 'com.qa.gorest.tests.CreateUser')
+data.setCell(3, 3, 2843);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getUserDetailWithQueryParam')
+data.setCell(4, 2, 'com.qa.gorest.tests.GetUserDetails')
+data.setCell(4, 3, 2640);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getUserDetail')
+data.setCell(5, 2, 'com.qa.gorest.tests.GetUserDetails')
+data.setCell(5, 3, 2391);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getFlightDetails')
+data.setCell(6, 2, 'com.qa.gorest.tests.GetFlightDetails')
+data.setCell(6, 3, 1843);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'circuitDetailsTest')
+data.setCell(7, 2, 'com.qa.gorest.tests.GetCircuitDetails')
+data.setCell(7, 3, 1703);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'circuitDetailsTestJsonPath')
+data.setCell(8, 2, 'com.qa.gorest.tests.GetCircuitDetails')
+data.setCell(8, 3, 1281);
+window.suiteTableData['API_Regression_Suite']= { tableData: data, tableDiv: 'times-div-API_Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-API_Regression_Suite">
+              </div> <!-- times-div-API_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.gorest.tests.CreateUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createUserTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.gorest.tests.GetUserDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(https://gorest.co.in)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">getUserSetUp</span>
+                <span class="method-start">625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAllUserDetails</span>
+                <span class="method-start">875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUserSetUp</span>
+                <span class="method-start">4328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getUserDetail</span>
+                <span class="method-start">4375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getUserSetUp</span>
+                <span class="method-start">6813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUserDetailWithQueryParam</span>
+                <span class="method-start">6813 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.gorest.tests.CreateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(https://gorest.co.in)</span>
+                <span class="method-start">9938 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">createUserSetUp</span>
+                <span class="method-start">10359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createUserTestUsingExcel(Rohit, Male, Active)</span>
+                <span class="method-start">10359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createUserSetUp</span>
+                <span class="method-start">15563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createUserTestUsingExcel(Rita, Female, Inactive)</span>
+                <span class="method-start">15563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createUserSetUp</span>
+                <span class="method-start">18406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createUserTestUsingExcel(Rocy, Male, Active)</span>
+                <span class="method-start">18422 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.gorest.tests.GetCircuitDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(https://ergast.com)</span>
+                <span class="method-start">23531 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">createUserSetUp</span>
+                <span class="method-start">23531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">circuitDetailsTest</span>
+                <span class="method-start">23531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createUserSetUp</span>
+                <span class="method-start">25250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">circuitDetailsTestJsonPath</span>
+                <span class="method-start">25266 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.gorest.tests.GetFlightDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(https://test.api.amadeus.com)</span>
+                <span class="method-start">26609 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(client_credentials, TAnRnsU5lASXZ8mPGdwRQZMoQzhu6Gwv, VjjgfcJilNAzcSJw)</span>
+                <span class="method-start">26625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getFlightDetails</span>
+                <span class="method-start">27938 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

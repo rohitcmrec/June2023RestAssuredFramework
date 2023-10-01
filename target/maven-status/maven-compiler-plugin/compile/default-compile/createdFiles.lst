@@ -1,0 +1,12 @@
+com\qa\gorest\POJO\User.class
+com\qa\gorest\Utils\StringUtil.class
+com\qa\gorest\Utils\XmlPathUtil.class
+com\qa\gorest\ConfigurationManagement\ConfigManager.class
+com\qa\gorest\Contant\APIConstant.class
+com\qa\gorest\Utils\JsonPathUtil.class
+com\qa\gorest\frameworkExceptions\APIFrameworkExceptions.class
+com\qa\gorest\RestClient\RestClient.class
+com\qa\gorest\POJO\User$UserBuilder.class
+com\qa\gorest\Utils\ExcelUtil.class
+com\qa\gorest\listeners\ExtentReportListener.class
+com\qa\gorest\Contant\APIHttpStatus.class

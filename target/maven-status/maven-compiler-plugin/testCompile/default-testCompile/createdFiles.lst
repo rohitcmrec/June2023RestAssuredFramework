@@ -1,0 +1,5 @@
+com\qa\gorest\tests\GetCircuitDetails.class
+com\qa\gorest\tests\CreateUser.class
+com\qa\gorest\tests\GetUserDetails.class
+com\qa\gorest\tests\GetFlightDetails.class
+com\qa\gorest\base\BaseTest.class

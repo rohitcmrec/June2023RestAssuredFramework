@@ -1,0 +1,115 @@
+All Files
+Recents
+Notes
+Canvas
+Sign
+Apps
+Synced
+Trash
+My Collections
+
+Favorites
+
+Drag items here for quick access
+1.8 MB of 10.0 GB used
+
+Search Files and Folders
+
+
+
+Upgrade Plan
+
+
+
+0
+
+Company Logo
+
+src
+test
+resources
+
+
+
+
+New
+
+Share
+Type
+NAME
+UPDATED
+SIZE
+
+
+
+Sharing
+
+Details
+Naveen Khunteta
+Owner
+
+Rohit Agarwal
+Viewer
+
+
+podapati.pavan18@gmail.com
+Pending
+
+Sheetal Dhavali
+Viewer
+
+haritha tk
+Viewer
+
++228 People
+
+Shared Link
+Create Link
+
+createuserschema.json
+resources
+·
+Updated Aug 15, 2023 by Naveen Khunteta
+
+
+Open
+
+
+Share
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"title": "Generated schema for Root",
+"type": "object",
+"properties": {
+"id": {
+"type": "number"
+},
+"name": {
+"type": "string"
+},
+"email": {
+"type": "string"
+},
+"gender": {
+"type": "string"
+},
+"status": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"name",
+"email",
+"gender",
+"status"
+]
+}
+
+
+
+Launch Zoom Meeting
+Share with Slack
+Send with Gmail
+Send to Outlook
+
