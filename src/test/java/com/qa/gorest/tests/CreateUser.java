@@ -32,7 +32,7 @@ public class CreateUser extends BaseTest {
         return ExcelUtil.getData("sheet1");
     }
 
-    @Test(dataProvider="getUser", enabled = false)
+    @Test(dataProvider="getUser", enabled = true)
     public void createUserTest(String name, String gender, String status) {
 
         User user = new User(name, StringUtil.generateEmail(), gender, status);
